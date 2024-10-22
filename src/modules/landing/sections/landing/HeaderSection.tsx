@@ -1,8 +1,7 @@
-import logo from "../../../assets/logo.svg";
-import credMoney from "../../../assets/icons/cred-money.svg";
-import videos from "../../../assets/videos";
+import icons from "../../../../assets/icons";
+import videos from "../../../../assets/videos";
 
-const LandingHeaderSection = () => {
+const HeaderSection = () => {
   return (
     <main className="h-screen flex items-center justify-center flex-col relative">
       <video
@@ -13,11 +12,11 @@ const LandingHeaderSection = () => {
         className="absolute top-0 left-0 w-screen h-screen object-cover z-[1]"
       ></video>
       <div className="absolute top-[70px] px-[130px] flex justify-between w-screen items-center z-[2]">
-        <img src={logo} alt="logo" />
+        <img src={icons.logo} alt="logo" />
         <div className="border-[1px] border-[rgba(255,255,255,0.2)] flex items-center ">
           <div className="border-r-[1px] border-[rgba(255,255,255,0.2)]">
             <img
-              src={credMoney}
+              src={icons.credMoney}
               alt="cred-money"
               className=" px-[30px] py-[20px]"
             />
@@ -41,4 +40,4 @@ const LandingHeaderSection = () => {
   );
 };
 
-export default LandingHeaderSection;
+export default HeaderSection;
