@@ -1,4 +1,5 @@
 import AboutSection from "../sections/landing/AboutSection";
+import DemoSection from "../sections/landing/DemoSection";
 import HeaderSection from "../sections/landing/HeaderSection";
 
 const LandingPage = () => {
@@ -6,6 +7,7 @@ const LandingPage = () => {
     <>
       <HeaderSection />
       <AboutSection />
+      <DemoSection />
     </>
   );
 };
