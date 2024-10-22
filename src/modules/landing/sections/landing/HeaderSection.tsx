@@ -32,7 +32,7 @@ const HeaderSection = () => {
         crafted for the <br />
         creditworthy
       </div>
-      <div className="text-[20px] leading-[34px] text-center font-gilroy font-medium tracking-[0.5px] mt-5 z-[2]">
+      <div className="text-[20px] leading-[34px] text-center font-gilroy font-medium tracking-[0.5px] mt-5 z-[2] opacity-70">
         CRED is a members-only club that enables <br /> the trustworthy to make
         a financial progress
       </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import videos from "../../../../assets/videos";
 
 const DemoSection = () => {
@@ -10,7 +9,7 @@ const DemoSection = () => {
           all that you deserve. <br />
           and some more.
         </div>
-        <div className="text-[20px] leading-[34px] text-center font-gilroy font-medium tracking-[0.5px] mt-[50px] z-[2]">
+        <div className="text-[20px] leading-[34px] text-center font-gilroy font-medium tracking-[0.5px] mt-[50px] z-[2] opacity-70">
           if you're a CRED member, you're already a step ahead. every <br /> the
           experience you unlock takes you higher up the pedestal.
         </div>
