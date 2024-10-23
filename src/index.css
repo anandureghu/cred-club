@@ -71,3 +71,14 @@
   font-weight: 900;
   font-style: normal;
 }
+
+@layer components {
+  .scroll-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
