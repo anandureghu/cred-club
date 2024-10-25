@@ -3,6 +3,7 @@ import CreditCardSection from "../sections/landing/CreditCardSection";
 import DemoSection from "../sections/landing/DemoSection";
 import FeaturesSection from "../sections/landing/FeaturesSection";
 import HeaderSection from "../sections/landing/HeaderSection";
+import RewardsSection from "../sections/landing/RewardsSection";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <DemoSection />
       <CreditCardSection />
       <FeaturesSection />
+      <RewardsSection />
     </>
   );
 };

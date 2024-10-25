@@ -34,7 +34,7 @@ const FeaturesSection = () => {
     },
   ];
   return (
-    <div className="mb-[200px]">
+    <div className="mb-[300px]">
       <div className="text-[90px] font-denton leading-[92px] font-extrabold text-left z-[2] mt-[350px] ml-[124px] mb-[100px]">
         upgrade your life. <br />
         bit by bit.
