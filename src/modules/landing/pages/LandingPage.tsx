@@ -4,6 +4,7 @@ import DemoSection from "../sections/landing/DemoSection";
 import FeaturesSection from "../sections/landing/FeaturesSection";
 import HeaderSection from "../sections/landing/HeaderSection";
 import RewardsSection from "../sections/landing/RewardsSection";
+import SecureSection from "../sections/landing/SecureSection";
 
 const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <CreditCardSection />
       <FeaturesSection />
       <RewardsSection />
+      <SecureSection />
     </>
   );
 };

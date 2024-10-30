@@ -2,7 +2,7 @@ import videos from "../../../../assets/videos";
 
 const RewardsSection = () => {
   return (
-    <div className="min-h-screen absolute flex items-center justify-center flex-col w-[calc(100vw-15px)] max-w-screen">
+    <div className="min-h-screen relative flex items-center justify-center flex-col w-[calc(100vw-15px)] max-w-screen">
       <video
         src={videos.rewardsDesktop}
         autoPlay
