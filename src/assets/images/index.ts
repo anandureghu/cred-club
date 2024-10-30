@@ -15,6 +15,7 @@ import security from "./security-final-2.webp";
 import snpLogo from "./snp-logo-final.webp";
 import tapNpay from "./tap-n-pay.webp";
 import tnpLogo from "./tnp-logo-final.webp";
+import qrFinal from "./qr-final.webp";
 
 export default {
   ccOnUpi,
@@ -27,6 +28,7 @@ export default {
   nowLiveWide,
   p2p,
   p2pLogo,
+  qrFinal,
   ratingStars,
   rupayLogo,
   scanNPay,
