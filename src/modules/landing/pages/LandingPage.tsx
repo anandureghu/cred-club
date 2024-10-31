@@ -2,6 +2,7 @@ import AboutSection from "../sections/landing/AboutSection";
 import CreditCardSection from "../sections/landing/CreditCardSection";
 import DemoSection from "../sections/landing/DemoSection";
 import DownloadSection from "../sections/landing/DownloadSection";
+import FAQSection from "../sections/landing/FAQSection";
 import FeaturesSection from "../sections/landing/FeaturesSection";
 import HeaderSection from "../sections/landing/HeaderSection";
 import RatingSection from "../sections/landing/RatingSection";
@@ -20,6 +21,7 @@ const LandingPage = () => {
       <SecureSection />
       <RatingSection />
       <DownloadSection />
+      <FAQSection />
     </>
   );
 };
